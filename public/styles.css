@@ -1,0 +1,7 @@
+body {
+  background-color: aliceblue;
+}
+
+i .github-icon {
+  content: "\e625";
+}
