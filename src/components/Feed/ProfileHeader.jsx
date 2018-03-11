@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, CardHeader, Avatar, CardTitle } from 'material-ui';
+import { CardActions } from 'material-ui/Card';
+import { List, ListItem } from 'material-ui/List'
 
 import SocialBar from '../SocialBar';
 import AvatarImage from '../../resources/Avatar.jpg';
@@ -9,7 +11,6 @@ class ProfileHeader extends React.Component {
     super(props);
     this.state = {
       expandSidebar: false,
-      blogs: [],
     };
     this.handleExpandSideBar = this.handleExpandSideBar.bind(this);
   }
@@ -33,6 +34,16 @@ class ProfileHeader extends React.Component {
                 size={200}
               />}
             />
+
+            <CardActions style={{ width: '7%' }}>
+              <List>
+                <ListItem primaryText="Home" />
+                <ListItem primaryText="About" />
+                <ListItem primaryText="Resume" />
+                <ListItem primaryText="Contact" />
+                <ListItem primaryText="Sign in" />
+              </List>
+            </CardActions>
 
           </Card>
         </div>
