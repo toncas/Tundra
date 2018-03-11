@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import PlaceHolder from './components/Placeholder.jsx';
-import ContactBar from './components/ContactBar.jsx';
+import Feed from './components/Feed';
+import ContactBar from './components/ContactBar';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
     return (
       <MuiThemeProvider>
-        <PlaceHolder />
+        <Feed/>
         <ContactBar />
       </MuiThemeProvider>
     );
