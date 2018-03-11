@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import Feed from './components/Feed';
-import ContactBar from './components/ContactBar';
+import ProfileHeader from './components/Feed/ProfileHeader';
 
 class App extends Component {
   constructor(props) {
@@ -11,8 +10,8 @@ class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <Feed/>
-        <ContactBar />
+        <ProfileHeader />
+
       </MuiThemeProvider>
     );
   }
