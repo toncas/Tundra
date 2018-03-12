@@ -21,7 +21,7 @@ const ContactBar = () => (
       iconClassName="fa fa-twitter"
       tooltip="twitter"
       tooltipPosition="bottom-center"
-      href="https://www.twitter.com/antoniostreams"
+      href="https://twitter.com/antoniomgcastro"
       target="_blank"
     />
     <IconButton

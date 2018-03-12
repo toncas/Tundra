@@ -41,7 +41,7 @@ class ProfileHeader extends React.Component {
                 <ListItem primaryText="About" />
                 <ListItem primaryText="Resume" />
                 <ListItem primaryText="Contact" />
-                <ListItem primaryText="Sign in" />
+                <ListItem primaryText="Guestbook" />
               </List>
             </CardActions>
 
