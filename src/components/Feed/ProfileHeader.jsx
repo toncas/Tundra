@@ -35,7 +35,7 @@ class ProfileHeader extends React.Component {
               />}
             />
 
-            <CardActions style={{ width: '7%' }}>
+            {/* <CardActions style={{ width: '7%' }}>
               <List>
                 <ListItem primaryText="Home" />
                 <ListItem primaryText="About" />
@@ -43,7 +43,7 @@ class ProfileHeader extends React.Component {
                 <ListItem primaryText="Contact" />
                 <ListItem primaryText="Guestbook" />
               </List>
-            </CardActions>
+            </CardActions> */}
 
           </Card>
         </div>
